@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="logs">
+			<Node name="log0">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44783.759421412"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{6E1B0EE7-65E8-476D-8450-462FAB7E8BE5}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test_diagnoses_drugs\Test6]"/>
+				<Prp name="relpath" type="S" value="10_08_2022_18_13_34_8\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log1">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44783.7599889699"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{87A5F4B5-0022-4854-A2E7-ACE2BB30B0B5}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test_diagnoses_drugs\Test6]"/>
+				<Prp name="relpath" type="S" value="10_08_2022_18_14_23_46\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log2">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44783.7605108681"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{7CD2EF8F-81F3-4EFC-983E-7233C02AD80E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test_diagnoses_drugs\Test6]"/>
+				<Prp name="relpath" type="S" value="10_08_2022_18_15_08_137\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log3">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44783.7613427546"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{228760E5-C467-49D9-976B-F354A268FD22}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Test_diagnoses_drugs\Test6]"/>
+				<Prp name="relpath" type="S" value="10_08_2022_18_16_20_12\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>

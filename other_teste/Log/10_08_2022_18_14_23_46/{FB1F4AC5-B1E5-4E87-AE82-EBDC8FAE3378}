@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 1">
+			<Prp name="date" type="D" value="44783.7600024884"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.AMMain&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window got focus."/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="date" type="D" value="44783.7600135532"/>
+			<Prp name="remarks" type="S" value="Screen coordinates of the point: (488, 3093).&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_DA9944085BBF48B1A654475E76146D49&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;PanelTop&quot;).VCLObject(&quot;TabControl1&quot;).VCLObject(&quot;PanelNaznach&quot;).VCLObject(&quot;SimplePanel&quot;).VCLObject(&quot;edMed&quot;)"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="There was an attempt to perform an action at a point, which is beyond the screen."/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 3">
+			<Prp name="date" type="D" value="44783.760020081"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Script execution was interrupted."/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="units"/>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="44783.7599965278"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.AMMain&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window got focus."/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
